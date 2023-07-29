@@ -1,0 +1,21 @@
+{
+  "name": "helpa",
+  "version": "1.0.0",
+  "description": "A Web3 Crowdfunding System",
+  "main": "scripts/deploy.ts",
+  "scripts": {
+    "test": "hardhart test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts"
+  },
+  "keywords": [],
+  "author": "Mike Attara",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
